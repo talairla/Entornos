@@ -1,0 +1,25 @@
+##Ver la explicación en el fichero Makefile este está inacabado
+
+CC=g++
+
+CFLAGS=-Wall
+TARGET=programa
+SOURCES=triangulares3.c libreria2.c libreria.c
+HEADERS=libreria.h libreria2.h
+OBJECTS=$(SOURCES:.c=.o)	
+
+all: $(TARGET)
+
+
+%.o: %.c
+	$(CC) $(CFLAGS) -c $< -o $@
+
+
+
+
+$(TARGET): %.o
+	$(CC) $(CFLAGS) $^ -o $@
+
+clean:
+	rm $(TARGET)
+	rm *.o
