@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1478692549 source:/home/user/proyectos/Entornos/trabajandoChar/libreria_booleana.c
+	"libreria_booleana.h"
+
+1478692549 /home/user/proyectos/Entornos/trabajandoChar/libreria_booleana.h
+	<stdbool.h>
+
+1478693102 source:/home/user/proyectos/Entornos/trabajandoChar/main.c
+	<stdio.h>
+	<stdlib.h>
+	"./libreria_booleana.h"
+

@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1478162108 source:/home/user/proyectos/Entornos/programa5/libreria_booleana.c
+	"libreria_booleana.h"
+
+1478162108 /home/user/proyectos/Entornos/programa5/libreria_booleana.h
+	<stdbool.h>
+
+1478164637 source:/home/user/proyectos/Entornos/programa5/main.c
+	<stdio.h>
+	<stdbool.h>
+	"libreria_booleana.h"
+
