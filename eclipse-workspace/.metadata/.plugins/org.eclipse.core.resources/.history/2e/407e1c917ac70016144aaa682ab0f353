@@ -1,0 +1,20 @@
+
+public class Mesa {
+
+	
+	private int num_patas;
+	public String material;
+	private int anchura; //En mm
+	private int altura; //En mm
+	private int profundidad; //En mm
+	
+	
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
