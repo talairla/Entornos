@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="21" version="2.0">
+<workbench progressCount="22" version="2.0">
 <workbenchAdvisor/>
 <window height="743" width="1024" x="0" y="0">
 <fastViewData fastViewLocation="1024"/>
@@ -36,7 +36,7 @@
 </folder>
 </info>
 </editorArea>
-<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PruebaMesa.java" partName="PruebaMesa.java" path="/home/user/workspace/ProyectoJavaDoc/src/paquete2/PruebaMesa.java" title="PruebaMesa.java" tooltip="ProyectoJavaDoc/src/paquete2/PruebaMesa.java" workbook="DefaultEditorWorkbook">
+<editor activePart="true" focus="true" id="org.eclipse.jdt.ui.CompilationUnitEditor" name="PruebaMesa.java" partName="PruebaMesa.java" path="/home/user/proyectos/Entornos/eclipse-workspace/ProyectoJavaDoc/src/paquete2/PruebaMesa.java" title="PruebaMesa.java" tooltip="ProyectoJavaDoc/src/paquete2/PruebaMesa.java" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/ProyectoJavaDoc/src/paquete2/PruebaMesa.java"/>
 <editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="289" selectionTopPixel="0"/>
 </editor>
