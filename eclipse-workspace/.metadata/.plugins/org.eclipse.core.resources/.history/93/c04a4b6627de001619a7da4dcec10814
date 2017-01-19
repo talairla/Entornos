@@ -1,0 +1,18 @@
+package conversor;
+
+import java.util.HashSet;
+
+public class ConversorDivisas {
+
+	/**
+	 * @param args
+	 */
+
+	Divisa[] divisas;
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

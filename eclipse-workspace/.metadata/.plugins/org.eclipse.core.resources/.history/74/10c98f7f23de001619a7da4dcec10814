@@ -1,0 +1,20 @@
+package conversor;
+
+import java.util.HashSet;
+
+public class ConversorDivisas {
+
+	/**
+	 * @param args
+	 */
+	
+	double euro;
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

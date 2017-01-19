@@ -1,0 +1,22 @@
+package conversor;
+
+import java.util.HashSet;
+
+public class ConversorDivisas {
+
+	/**
+	 * @param args
+	 */
+	double euro;
+	double dolar;
+	double yen;
+	double libras;
+	
+	
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

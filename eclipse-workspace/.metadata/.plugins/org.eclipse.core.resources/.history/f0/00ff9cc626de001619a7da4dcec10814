@@ -1,0 +1,17 @@
+/**
+ * 
+ */
+package conversor;
+
+/**
+ * @author user
+ *
+ */
+public class Divisa {
+	
+	String codigo;
+	double valor;
+	
+	
+
+}

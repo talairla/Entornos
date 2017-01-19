@@ -2,4 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="Mesa"/>
 <fullyQualifiedTypeName name="Paquete1.Mesa"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
