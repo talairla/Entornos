@@ -1,5 +1,5 @@
 command=/usr/bin/javadoc
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Mesa"><rhs name\="Mesa"/></lhs><lhs name\="Paquete1.Mesa"><rhs name\="Paquete1.Mesa"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="Mesa"><rhs name\="Mesa"/></lhs><lhs name\="Paquete1.Mesa"><rhs name\="Paquete1.Mesa"/></lhs><lhs name\="conversor.ConversorDivisas"><rhs name\="conversor.ConversorDivisas"/></lhs></history>
 content_assist_number_of_computers=13
 content_assist_proposals_background=247,247,247
 content_assist_proposals_foreground=33,33,33

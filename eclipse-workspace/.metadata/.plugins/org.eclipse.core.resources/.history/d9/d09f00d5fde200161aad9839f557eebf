@@ -1,0 +1,50 @@
+package conversor;
+
+import java.awt.EventQueue;
+
+import javax.swing.JFrame;
+
+public class ConversorVentana {
+
+	private JFrame frame;
+	private ConversorDivisas convDiv;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					ConversorVentana window = new ConversorVentana();
+					window.frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the application.
+	 */
+	public ConversorVentana() {
+		initialize();
+		convDiv = new ConversorDivisas();
+		cv.insertarDivisa("EUR", 1);
+		cv.insertarDivisa("USD", 1.07592);
+		cv.insertarDivisa("JPY", 121.904);
+		cv.insertarDivisa("GBP", 0.85416);
+		
+	}
+
+	/**
+	 * Initialize the contents of the frame.
+	 */
+	private void initialize() {
+		frame = new JFrame();
+		frame.setBounds(100, 100, 450, 300);
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	}
+
+}

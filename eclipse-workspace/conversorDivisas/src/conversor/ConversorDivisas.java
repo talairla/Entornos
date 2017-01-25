@@ -9,11 +9,6 @@ public class ConversorDivisas {
 	 */
 	ArrayList<Divisa> divisas;
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
-
 	public ConversorDivisas(){
 		divisas = new ArrayList<Divisa>();
 	}
@@ -30,7 +25,28 @@ public class ConversorDivisas {
 		Divisa divisa_nueva = new Divisa(codigo,valor);
 		
 		divisas.add(divisa_nueva);
+		System.out.println(divisas.get(divisas.size()-1).toString());
 		
+	}
+	
+	public double convertir(String cod_div_origen, String cod_div_destino, double cantidad ){
+		double resultado = 0;
+		
+		resultado = cantidad / obtenerValor(cod_div_origen) * obtenerValor(cod_div_destino);
+		
+		return resultado;
+		
+	}
+	
+	private double obtenerValor(String cod_divisa) {
+		
+		for (int i = 0 ; i < divisas.size() ; i++){
+			if ( divisas.get(i).getCodigo().equals(cod_divisa) ){
+				return divisas.get(i).getValor();
+			}	
+		}
+		System.out.println("No se ha encontrado el valor de la divisa con código: "+cod_divisa);
+		return 1.0;
 	}
 	
 }

@@ -4,4 +4,6 @@
 <fullyQualifiedTypeName name="Paquete1.Mesa"/>
 <fullyQualifiedTypeName name="java.util.HashSet"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="conversor.Divisa"/>
+<fullyQualifiedTypeName name="conversor.ConversorDivisas"/>
 </qualifiedTypeNameHistroy>

@@ -1,0 +1,48 @@
+package conversor;
+
+import java.util.ArrayList;
+
+public class ConversorDivisas {
+
+	/**
+	 * @param args
+	 */
+	ArrayList<Divisa> divisas;
+
+	public ConversorDivisas(){
+		divisas = new ArrayList<Divisa>();
+	}
+	
+	/**
+	 * @param divisas
+	 */
+	public ConversorDivisas(ArrayList<Divisa> divisas) {
+		this.divisas = divisas;
+	}
+	
+	
+	public void insertarDivisa(String codigo, double valor){
+		Divisa divisa_nueva = new Divisa(codigo,valor);
+		
+		divisas.add(divisa_nueva);
+		System.out.println(divisas.get(divisas.size()-1).toString());
+		
+	}
+	
+	public double convertir(String cod_div_origen, String cod_div_destino, double cantidad ){
+		double resultado;
+		
+		return resultado;
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ConversorDivisas cv = new ConversorDivisas();
+		cv.insertarDivisa("EUR", 1);
+		cv.insertarDivisa("USD", 0.98);
+		cv.insertarDivisa("YEN", 200);
+		cv.insertarDivisa("GBP", 1.5);
+	}
+	
+}

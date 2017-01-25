@@ -55,9 +55,15 @@ public class Divisa {
 	 */
 	@Override
 	public String toString() {
-		return "Código: "+codigo+": "+valor;
+		return "Divisa [codigo=" + codigo + ", valor=" + valor + "]";
 	}
 
+	/* (non-Javadoc)
+	 * @see java.lang.Object#toString()
+	*/
+
+
+	
 	
 	
 }
